@@ -1,0 +1,64 @@
+{
+   "villagers": [
+      {
+         "name": "Bob",
+         "profession": "Fletcher",
+         "level": "Master",
+         "trades": [
+            {
+               "inputs": [
+                  {
+                     "name": "name",
+                     "qty": 2
+                  },
+                  {
+                     "name": "name 2",
+                     "qty": 3
+                  }
+               ],
+               "outputs": [
+                  {
+                     "name": "name",
+                     "qty": 1
+                  }
+               ]
+            },
+            {
+               "inputs": [
+                  {
+                     "name": "in item",
+                     "qty": 5
+                  }
+               ],
+               "outputs": [
+                  {
+                     "name": "out item",
+                     "qty": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Paul",
+         "profession": "Armorer",
+         "level": "Master",
+         "trades": [
+            {
+               "inputs": [
+                  {
+                     "name": "item 1",
+                     "qty": 16
+                  }
+               ],
+               "outputs": [
+                  {
+                     "name": "item 2",
+                     "qty": 1
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
